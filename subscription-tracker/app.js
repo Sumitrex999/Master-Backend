@@ -20,7 +20,7 @@ app.get('/',(req,res)=>{
     res.send( 'Welcome to the subscription tracker API!');
 });
 
-app.listen( PORT,  async ()=>{
+app.listen( PORT,  async () => {
     console.log(`Subscription tracker API is running on http://localhost:${PORT}`);
 
     await connectToDatabase();
