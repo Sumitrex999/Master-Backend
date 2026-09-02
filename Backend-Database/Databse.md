@@ -1,0 +1,14 @@
+# MongoDB - Atlas service provider for Database.
+# CLuster - Group of databases that share the same configuration and resources.(Max 512 MB free tier)
+# Database - A collection of collections that store data in a structured format.
+# In kubernetes Cluster is a group of machines that run containerized applications. In MongoDB, a cluster is a group of servers that work together to store and manage data. Each cluster can contain multiple databases, and each database can contain multiple collections.
+# Collection - A collection is a group of documents that share the same structure and are stored together in a database. Each document is a JSON-like object that contains data in key-value pairs. Collections can be thought of as tables in a relational database, but they are more flexible and can store unstructured data.
+# Max connection limit - 100 connections for free tier, 500 connections for shared cluster, 1000 connections for dedicated cluster.
+# connections mean the number of clients that can connect to the database at the same time. Each connection consumes resources on the server, so it's important to manage connections carefully to avoid performance issues.
+# Example if we ask no. of users likes a post and thier no. of posts then the "logic" decides the no. of connections required to fetch the data.
+# DataBAse have 2 security layers - Network layer and Application layer.
+# Network Layer - DB estabileshes connection based on the "IP address" and port number of the client. The network layer is responsible for managing the communication between the client and the server, including authentication, encryption, and data transfer.
+# Application Layer - DB estabileshes connection based on the "username" and "password" of the client. The application layer is responsible for managing the access control and authorization of the client, including user roles(admin, read & write & only read), permissions, and authentication mechanisms.
+# 0.0.0.0/0 - It is a wildcard IP address that represents all IPv4 addresses. In the context of MongoDB, it is used to allow connections from any IP address, which can be useful for testing or development purposes. However, it is not recommended for production environments, as it can pose security risks.
+
+# Schema - how a database is structured and organized. It defines the fields, data types, and relationships between different collections in the database. In MongoDB, schemas are defined using a schema definition language (SDL) or using a programming language like JavaScript or Python. Schemas can be used to enforce data validation rules, ensure consistency across collections, and optimize query performance.
