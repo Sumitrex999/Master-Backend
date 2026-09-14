@@ -79,5 +79,10 @@ pull the image from the product images array and return the updated product.
 => controller: cart.controller.js -> for creating cart controller.
 => cart.validator.js -> for creating cart validator. i.e addToCartValidator, removeFromCartValidator, updateCartValidator.
 
+=>ui layer: react components / ui & Navigation
+=>state layer: data store
+=>api layer: how to fetch data from api
+=>custom hooks layer: how data stored in state from api layer and how to use it in ui layer.
 
-=>
+=>auth & product & interceptors & refreshtoken 
+=> mcp.json -> for creating mcp.json file to store the api endpoints.{to estabish conncection with the tool on interent with the vs code or copilot}
