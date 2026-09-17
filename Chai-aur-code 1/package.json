@@ -1,0 +1,21 @@
+{
+  "name": "chai-aur-code-1",
+  "version": "1.0.0",
+  "description": "learning backend on my own with chai aur code",
+  "keywords": [
+    "chai",
+    "rex",
+    "code"
+  ],
+  "license": "ISC",
+  "author": "rex",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
